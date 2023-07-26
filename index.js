@@ -17,6 +17,7 @@ app.use(passport.initialize());
 // Use express router
 app.use('/', require('./routes/index'))
 
+// Listening to Server
 app.listen(port, function (error) {
     if (error) {
         console.log(`Error in running the Server. Error is : ${error}`);

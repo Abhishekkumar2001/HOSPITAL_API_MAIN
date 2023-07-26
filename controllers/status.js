@@ -1,6 +1,7 @@
 
 const Report = require('../models/reports')
 
+// Render the filter for particular status
 module.exports.filteredReports = async function(req,res)
 {
     try {

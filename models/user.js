@@ -1,5 +1,7 @@
+// Importing the mongoose
 const mongoose = require('mongoose');
 
+// Created the User Schema
 const userSchema = new mongoose.Schema({
   username: {
     type: String,

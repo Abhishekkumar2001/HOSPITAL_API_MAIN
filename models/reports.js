@@ -1,5 +1,7 @@
+// Importing the mongoose
 const mongoose = require('mongoose');
 
+// Created the Report Schema
 const reportSchema = new mongoose.Schema({
   createdByDoctor: {
     type: mongoose.Schema.Types.ObjectId,
@@ -10,7 +12,7 @@ const reportSchema = new mongoose.Schema({
     ref: 'User',
   },
   status: {
-    type:String,
+    type: String,
     require:true,
     enum:['Negative', 'Travelled-Quarantine', 'Symptoms-Quarantine',
         'Positive-Admit']

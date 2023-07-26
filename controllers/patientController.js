@@ -61,7 +61,7 @@ module.exports.createReport = async function(req,res)
 
         }
 
-        report = await Report.create({
+       const report = await Report.create({
             createdByDoctor:req.user.id,
             patient:req.params.id,
             status:req.body.status,

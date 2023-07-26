@@ -1,5 +1,7 @@
+// Importing mongoose
 const mongoose = require('mongoose');
 
+// Conneted to mongoDB
 mongoose.connect(`mongodb://127.0.0.1:27017/Hospital_DB`);
 
 const db = mongoose.connection;

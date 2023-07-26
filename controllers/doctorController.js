@@ -2,6 +2,7 @@
 const User = require('../models/user')
 const jwt = require('jsonwebtoken');
 
+// Render the register for Doctor
 module.exports.create = async function(req,res)
 {
     try {
@@ -41,7 +42,7 @@ module.exports.create = async function(req,res)
 
 }
 
-
+// Render the Login for Doctor
 module.exports.createSession = async function (req, res) {
 
     try {
