@@ -5,7 +5,7 @@ Installation
 
 To run this application on your local machine, please follow these steps:
 
-Clone this repository using the following command: 
+Clone this repository using the following command: https://github.com/Abhishekkumar2001/HOSPITAL_API_MAIN
 
 Install the required dependencies using the following command: $ npm install
 
